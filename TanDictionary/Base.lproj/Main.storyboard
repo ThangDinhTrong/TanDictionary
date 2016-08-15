@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Y8p-9Q-az0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="9KU-In-MD1">
+            <objects>
+                <viewController id="Y8p-9Q-az0" customClass="MainViewController" customModule="TanDictionary" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TmG-oN-o8J"/>
+                        <viewControllerLayoutGuide type="bottom" id="oms-Dy-xcu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0LH-QD-ppe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SvY-DT-IqQ">
+                                <rect key="frame" x="0.0" y="78" width="320" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.99838031400000005" blue="0.98395621389999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.049693485260000003" green="0.1116867772" blue="0.53018465910000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="1" green="0.58807263850000002" blue="0.1582462529" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KwC-lS-U5E">
+                                <rect key="frame" x="0.0" y="122" width="320" height="446"/>
+                                <color key="backgroundColor" red="0.049693485260000003" green="0.1116867772" blue="0.53018465910000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.049693485260000003" green="0.1116867772" blue="0.53018465910000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="UtA-Qx-pPU" customClass="MainTableViewCell" customModule="TanDictionary" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UtA-Qx-pPU" id="1r0-RH-W8d">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MainLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezd-aM-p26">
+                                                    <rect key="frame" x="30" y="14" width="159" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="0.99838031400000005" blue="0.98395621389999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.049693485260000003" green="0.1116867772" blue="0.53018465910000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.049693485260000003" green="0.1116867772" blue="0.53018465910000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="mainLabel" destination="Ezd-aM-p26" id="yGz-tf-3KD"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y8p-9Q-az0" id="eFG-iA-oxn"/>
+                                    <outlet property="delegate" destination="Y8p-9Q-az0" id="ykz-xV-DAO"/>
+                                </connections>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uWs-mE-Dd7">
+                                <rect key="frame" x="0.0" y="6" width="320" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.58807263850000002" blue="0.1582462529" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="1" green="0.58807263850000002" blue="0.1582462529" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="0.99838031400000005" blue="0.98395621389999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Tan Dictionary" id="tLL-So-g75"/>
+                                </items>
+                            </navigationBar>
+                            <segmentedControl opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dvc-N2-0vQ">
+                                <rect key="frame" x="0.0" y="50" width="320" height="29"/>
+                                <color key="backgroundColor" red="1" green="0.99838031400000005" blue="0.98395621389999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <segments>
+                                    <segment title="Eng-Vie"/>
+                                    <segment title="Vie-Eng"/>
+                                </segments>
+                                <color key="tintColor" red="1" green="0.73817537769999997" blue="0.17937802280000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="segmentAction:" destination="Y8p-9Q-az0" eventType="valueChanged" id="iyz-SG-6f7"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.58807263850000002" blue="0.1582462529" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="SvY-DT-IqQ" id="Khx-bv-JBw"/>
+                        <outlet property="segmentControl" destination="dvc-N2-0vQ" id="DQF-Dd-8TI"/>
+                        <outlet property="tableView" destination="KwC-lS-U5E" id="pQL-Il-hqp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n1G-0h-0HQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1365" y="245"/>
+        </scene>
+    </scenes>
+</document>

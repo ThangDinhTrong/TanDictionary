@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFD259AC1D5C1F33002D6B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD259AB1D5C1F33002D6B2F /* AppDelegate.swift */; };
+		BFD259B11D5C1F33002D6B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD259AF1D5C1F33002D6B2F /* Main.storyboard */; };
+		BFD259B41D5C1F33002D6B2F /* TanDictionary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFD259B21D5C1F33002D6B2F /* TanDictionary.xcdatamodeld */; };
+		BFD259B61D5C1F33002D6B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD259B51D5C1F33002D6B2F /* Assets.xcassets */; };
+		BFD259B91D5C1F33002D6B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD259B71D5C1F33002D6B2F /* LaunchScreen.storyboard */; };
+		BFD259C41D5C1F33002D6B2F /* TanDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD259C31D5C1F33002D6B2F /* TanDictionaryTests.swift */; };
+		BFD259D21D5C27E1002D6B2F /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD259D11D5C27E1002D6B2F /* MainTableViewCell.swift */; };
+		BFD259D41D5C2813002D6B2F /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD259D31D5C2813002D6B2F /* DetailTableViewCell.swift */; };
+		BFD259D81D5C2F24002D6B2F /* tuc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD259D71D5C2F24002D6B2F /* tuc.swift */; };
+		BFD259DA1D5C2FE0002D6B2F /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD259D91D5C2FE0002D6B2F /* SearchManager.swift */; };
+		BFD259DC1D5C71B7002D6B2F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD259DB1D5C71B7002D6B2F /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFD259C01D5C1F33002D6B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD259A01D5C1F33002D6B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD259A71D5C1F33002D6B2F;
+			remoteInfo = TanDictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFD259A81D5C1F33002D6B2F /* TanDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD259AB1D5C1F33002D6B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFD259B01D5C1F33002D6B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFD259B31D5C1F33002D6B2F /* TanDictionary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TanDictionary.xcdatamodel; sourceTree = "<group>"; };
+		BFD259B51D5C1F33002D6B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD259B81D5C1F33002D6B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFD259BA1D5C1F33002D6B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD259BF1D5C1F33002D6B2F /* TanDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD259C31D5C1F33002D6B2F /* TanDictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanDictionaryTests.swift; sourceTree = "<group>"; };
+		BFD259C51D5C1F33002D6B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD259D11D5C27E1002D6B2F /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		BFD259D31D5C2813002D6B2F /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		BFD259D71D5C2F24002D6B2F /* tuc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tuc.swift; sourceTree = "<group>"; };
+		BFD259D91D5C2FE0002D6B2F /* SearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		BFD259DB1D5C71B7002D6B2F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD259A51D5C1F33002D6B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD259BC1D5C1F33002D6B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFD2599F1D5C1F33002D6B2F = {
+			isa = PBXGroup;
+			children = (
+				BFD259AA1D5C1F33002D6B2F /* TanDictionary */,
+				BFD259C21D5C1F33002D6B2F /* TanDictionaryTests */,
+				BFD259A91D5C1F33002D6B2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD259A91D5C1F33002D6B2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD259A81D5C1F33002D6B2F /* TanDictionary.app */,
+				BFD259BF1D5C1F33002D6B2F /* TanDictionaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD259AA1D5C1F33002D6B2F /* TanDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				BFD259D01D5C2797002D6B2F /* Model */,
+				BFD259CF1D5C2791002D6B2F /* Controller */,
+				BFD259CE1D5C2789002D6B2F /* View */,
+				BFD259AB1D5C1F33002D6B2F /* AppDelegate.swift */,
+				BFD259AF1D5C1F33002D6B2F /* Main.storyboard */,
+				BFD259B51D5C1F33002D6B2F /* Assets.xcassets */,
+				BFD259B71D5C1F33002D6B2F /* LaunchScreen.storyboard */,
+				BFD259BA1D5C1F33002D6B2F /* Info.plist */,
+				BFD259B21D5C1F33002D6B2F /* TanDictionary.xcdatamodeld */,
+			);
+			path = TanDictionary;
+			sourceTree = "<group>";
+		};
+		BFD259C21D5C1F33002D6B2F /* TanDictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD259C31D5C1F33002D6B2F /* TanDictionaryTests.swift */,
+				BFD259C51D5C1F33002D6B2F /* Info.plist */,
+			);
+			path = TanDictionaryTests;
+			sourceTree = "<group>";
+		};
+		BFD259CE1D5C2789002D6B2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFD259D11D5C27E1002D6B2F /* MainTableViewCell.swift */,
+				BFD259D31D5C2813002D6B2F /* DetailTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BFD259CF1D5C2791002D6B2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFD259D91D5C2FE0002D6B2F /* SearchManager.swift */,
+				BFD259DB1D5C71B7002D6B2F /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BFD259D01D5C2797002D6B2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFD259D71D5C2F24002D6B2F /* tuc.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD259A71D5C1F33002D6B2F /* TanDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD259C81D5C1F33002D6B2F /* Build configuration list for PBXNativeTarget "TanDictionary" */;
+			buildPhases = (
+				BFD259A41D5C1F33002D6B2F /* Sources */,
+				BFD259A51D5C1F33002D6B2F /* Frameworks */,
+				BFD259A61D5C1F33002D6B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TanDictionary;
+			productName = TanDictionary;
+			productReference = BFD259A81D5C1F33002D6B2F /* TanDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFD259BE1D5C1F33002D6B2F /* TanDictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD259CB1D5C1F33002D6B2F /* Build configuration list for PBXNativeTarget "TanDictionaryTests" */;
+			buildPhases = (
+				BFD259BB1D5C1F33002D6B2F /* Sources */,
+				BFD259BC1D5C1F33002D6B2F /* Frameworks */,
+				BFD259BD1D5C1F33002D6B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD259C11D5C1F33002D6B2F /* PBXTargetDependency */,
+			);
+			name = TanDictionaryTests;
+			productName = TanDictionaryTests;
+			productReference = BFD259BF1D5C1F33002D6B2F /* TanDictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD259A01D5C1F33002D6B2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "dinh trong thang";
+				TargetAttributes = {
+					BFD259A71D5C1F33002D6B2F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BFD259BE1D5C1F33002D6B2F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BFD259A71D5C1F33002D6B2F;
+					};
+				};
+			};
+			buildConfigurationList = BFD259A31D5C1F33002D6B2F /* Build configuration list for PBXProject "TanDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFD2599F1D5C1F33002D6B2F;
+			productRefGroup = BFD259A91D5C1F33002D6B2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD259A71D5C1F33002D6B2F /* TanDictionary */,
+				BFD259BE1D5C1F33002D6B2F /* TanDictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD259A61D5C1F33002D6B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD259B91D5C1F33002D6B2F /* LaunchScreen.storyboard in Resources */,
+				BFD259B61D5C1F33002D6B2F /* Assets.xcassets in Resources */,
+				BFD259B11D5C1F33002D6B2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD259BD1D5C1F33002D6B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD259A41D5C1F33002D6B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD259DC1D5C71B7002D6B2F /* MainViewController.swift in Sources */,
+				BFD259B41D5C1F33002D6B2F /* TanDictionary.xcdatamodeld in Sources */,
+				BFD259DA1D5C2FE0002D6B2F /* SearchManager.swift in Sources */,
+				BFD259D81D5C2F24002D6B2F /* tuc.swift in Sources */,
+				BFD259D21D5C27E1002D6B2F /* MainTableViewCell.swift in Sources */,
+				BFD259D41D5C2813002D6B2F /* DetailTableViewCell.swift in Sources */,
+				BFD259AC1D5C1F33002D6B2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD259BB1D5C1F33002D6B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD259C41D5C1F33002D6B2F /* TanDictionaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD259C11D5C1F33002D6B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD259A71D5C1F33002D6B2F /* TanDictionary */;
+			targetProxy = BFD259C01D5C1F33002D6B2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFD259AF1D5C1F33002D6B2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD259B01D5C1F33002D6B2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFD259B71D5C1F33002D6B2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD259B81D5C1F33002D6B2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFD259C61D5C1F33002D6B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFD259C71D5C1F33002D6B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFD259C91D5C1F33002D6B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TanDictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rikkei.TanDictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFD259CA1D5C1F33002D6B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TanDictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rikkei.TanDictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFD259CC1D5C1F33002D6B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TanDictionaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rikkei.TanDictionaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanDictionary.app/TanDictionary";
+			};
+			name = Debug;
+		};
+		BFD259CD1D5C1F33002D6B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TanDictionaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rikkei.TanDictionaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanDictionary.app/TanDictionary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD259A31D5C1F33002D6B2F /* Build configuration list for PBXProject "TanDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD259C61D5C1F33002D6B2F /* Debug */,
+				BFD259C71D5C1F33002D6B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD259C81D5C1F33002D6B2F /* Build configuration list for PBXNativeTarget "TanDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD259C91D5C1F33002D6B2F /* Debug */,
+				BFD259CA1D5C1F33002D6B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFD259CB1D5C1F33002D6B2F /* Build configuration list for PBXNativeTarget "TanDictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD259CC1D5C1F33002D6B2F /* Debug */,
+				BFD259CD1D5C1F33002D6B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFD259B21D5C1F33002D6B2F /* TanDictionary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFD259B31D5C1F33002D6B2F /* TanDictionary.xcdatamodel */,
+			);
+			currentVersion = BFD259B31D5C1F33002D6B2F /* TanDictionary.xcdatamodel */;
+			path = TanDictionary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFD259A01D5C1F33002D6B2F /* Project object */;
+}
